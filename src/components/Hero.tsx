@@ -31,7 +31,7 @@ const Hero = () => {
 
         <div className="animate-fade-in" style={{ animationDelay: "0.1s", animationFillMode: "both" }}>
           <p className="text-sm sm:text-sm md:text-lg font-medium tracking-[0.15em] sm:tracking-[0.3em] uppercase text-neon-blue mb-3 md:mb-4">
-            National Level Mega Computing Event
+            COMPUTING EVENT FOR COMPUTER ENGINEERING & ALLIED BRANCHES
           </p>
         </div>
 
@@ -40,15 +40,15 @@ const Hero = () => {
           className="font-heading text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-4 sm:mb-6 md:mb-8 animate-fade-in animate-title-glow gradient-text"
           style={{ animationDelay: "0.2s", animationFillMode: "both" }}
         >
-          TECHNOCAVE 2026
+          CODE कल्प 2026
         </h1>
 
         <p
           className="max-w-3xl mx-auto text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed mb-8 md:mb-12 animate-fade-in px-2"
           style={{ animationDelay: "0.4s", animationFillMode: "both" }}
         >
-          Organized by SVKM's Institute of Technology Dhule, ACM Student Chapter in
-          Collaboration with Association of Computer Engineering Students (ACES)
+          SVKM NMIMS Global University School of Technology, Management and Engineering, Dhule(Formerly as SVKM's Institute of Technology, Dhule),
+          Department of Computer Engineering & Allied Branches in association with ACM Student Chapter, A.C.E.S. & A.D.A.S.
         </p>
 
         <div

@@ -78,7 +78,7 @@ className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-primary/30 bg-gl
             © 2026 SVKM IOT ACM Student Chapter. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground mt-2">
-            Developed by <a href="https://www.linkedin.com/in/madhur-bhandarkar-9bb342288/" style={{color: "yellow"}}>Madhur Bhandarkar</a>
+            Developed by <a href="https://www.linkedin.com/in/bharavi-bhamare-852a9a385" style={{color: "yellow"}}>Bharavi Bhamare</a>
           </p>
         </div>
       </div>

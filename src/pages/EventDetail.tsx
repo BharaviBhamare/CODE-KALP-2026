@@ -101,6 +101,29 @@ const EventDetail = () => {
               <p className="text-muted-foreground leading-relaxed">{section.content}</p>
             </div>
           ))}
+          {/* Themes */}
+{event.themes && event.themes.length > 0 && (
+  <div
+    className="glass-card p-8 mb-8 animate-fade-in"
+    style={{ animationDelay: "0.3s", animationFillMode: "both" }}
+  >
+    <h2 className="font-heading text-xl font-bold text-foreground mb-6">
+      Themes
+    </h2>
+
+    <ul className="space-y-3">
+      {event.themes.map((theme, i) => (
+        <li
+          key={i}
+          className="flex items-start gap-3 text-muted-foreground"
+        >
+          <span className="mt-1 w-2 h-2 rounded-full bg-neon-blue flex-shrink-0" />
+          {theme}
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
 
           {/* Judging Criteria */}
           {event.judgingCriteria && event.judgingCriteria.length > 0 && (
@@ -244,7 +267,7 @@ const EventDetail = () => {
               className="text-lg px-16 py-7 rounded-xl"
               onClick={() => window.open("#", "_blank")}
             >
-              Registration Closed
+              Registration 
             </Button>
 
             {event.id === "code-o-thon" && (
