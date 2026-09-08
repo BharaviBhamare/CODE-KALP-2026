@@ -430,12 +430,12 @@ export const events: EventData[] = [
 },
 {
   id: "prompt-engineering",
-  name: "PROMPT ENGINEERING",
+  name: "PROMPT & PIVOT",
   type: "workshop",
   tagline: "Prompt Engineering Workshop",
   fee: "To be announced",
   teamSize: "Individual",
-  date: "To be announced",
+  date: "15th September 2026",
 
   description:
     "A practical workshop introducing participants to prompt engineering and effective interaction with AI tools. Learn how to design clear, structured, and effective prompts for better AI-generated results.",
@@ -460,12 +460,12 @@ export const events: EventData[] = [
 },
 {
   id: "personality-development",
-  name: "PERSONALITY DEVELOPMENT",
+  name: "BECOMING YOU",
   type: "workshop",
   tagline: "Personality Development Workshop",
   fee: "To be announced",
   teamSize: "Individual",
-  date: "To be announced",
+  date: "15th September 2026",
 
   description:
     "A practical workshop focused on developing communication, confidence, interpersonal skills, and overall personality. Participants will learn useful techniques to improve their personal and professional skills.",
@@ -495,7 +495,7 @@ export const events: EventData[] = [
   tagline: "Technical Paper Writing",
   fee: "₹50",
   teamSize: "Individual",
-  date: "To be announced",
+  date: "15th September 2026",
 
   description:
     "A workshop on Technical Paper Writing designed to introduce participants to the fundamentals of writing and presenting technical papers.",
@@ -525,7 +525,7 @@ export const events: EventData[] = [
   tagline: "Engineering Challenge",
   fee: "To be announced",
   teamSize: "To be announced",
-  date: "To be announced",
+  date: "15th September 2026",
 
   description:
     "The Engineers Showdown is a technical competition designed to challenge participants' knowledge, problem-solving skills, and engineering abilities.",
