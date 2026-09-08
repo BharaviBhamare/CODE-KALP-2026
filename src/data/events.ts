@@ -154,7 +154,7 @@ export const events: EventData[] = [
   type: "competition",
   tagline: "Design. Develop. Dominate.",
   fee: "₹50 per person",
-  teamSize: "1–2 Members",
+  teamSize: "2 Members",
   date: "15th September 2026",
 
   description:
@@ -521,7 +521,7 @@ export const events: EventData[] = [
 {
   id: "engineers-showdown",
   name: "THE ENGINEERS SHOWDOWN",
-  type: "workshop",
+  type: "competition",
   tagline: "Engineering Challenge",
   fee: "To be announced",
   teamSize: "To be announced",

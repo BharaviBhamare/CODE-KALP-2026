@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
-import svkmNewLogo from "@/assets/svkm-new-logo.png";
 import acmLogo from "@/assets/acm-logo.png";
 import acesLogo from "@/assets/aces-logo.png";
+import adasLogo from "@/assets/adas-logo.png";
+import svkmNewLogo from "@/assets/svkm-new-logo.png";
 import svkmOldLogo from "@/assets/svkm-old-logo.png";
 
 const Hero = () => {
@@ -23,9 +24,10 @@ const Hero = () => {
         <div
           className="flex items-center justify-center gap-3 sm:gap-6 md:gap-10 mb-4 sm:mb-6 animate-fade-in flex-wrap"
         >
-          <img src={svkmNewLogo} alt="SVKM Logo" className="h-14 sm:h-16 md:h-20 lg:h-28 object-contain animate-float-subtle" />
-          <img src={acmLogo} alt="ACM Logo" className="h-14 sm:h-16 md:h-20 lg:h-28 object-contain animate-float-subtle" style={{ animationDelay: "0.5s" }} />
+          <img src={acmLogo} alt="ACM Logo" className="h-14 sm:h-16 md:h-20 lg:h-28 object-contain animate-float-subtle" />
           <img src={acesLogo} alt="ACES Logo" className="h-14 sm:h-16 md:h-20 lg:h-28 object-contain animate-float-subtle" style={{ animationDelay: "1s" }} />
+          <img src={adasLogo} alt="ADAS Logo"className="h-14 sm:h-16 md:h-20 lg:h-28 object-contain animate-float-subtle"style={{ animationDelay: "1s" }}/>
+          <img src={svkmNewLogo} alt="SVKM New Logo" className="h-14 sm:h-16 md:h-20 lg:h-28 object-contain animate-float-subtle" style={{ animationDelay: "0.5s" }} />
           <img src={svkmOldLogo} alt="SVKM Old Logo" className="h-14 sm:h-16 md:h-20 lg:h-28 object-contain animate-float-subtle" style={{ animationDelay: "1.5s" }} />
         </div>
 

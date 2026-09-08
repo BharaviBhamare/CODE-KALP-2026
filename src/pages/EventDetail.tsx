@@ -265,7 +265,7 @@ const EventDetail = () => {
               variant="neon"
               size="lg"
               className="text-lg px-16 py-7 rounded-xl"
-              onClick={() => window.open("#", "_blank")}
+              onClick={() => window.open("https://forms.gle/Va5NJFE81skW1ZvB6", "_blank")}
             >
               Registration 
             </Button>
