@@ -428,24 +428,31 @@ export const events: EventData[] = [
     }
   ]
 },
+
 {
   id: "prompt-engineering",
+
   name: "PROMPT & PIVOT",
+
   type: "workshop",
+
   tagline: "Prompt Engineering Workshop",
-  fee: "To be announced",
+
+  fee: "₹50 per person",
+
   teamSize: "Individual",
+
   date: "15th September 2026",
 
   description:
-    "A practical workshop introducing participants to prompt engineering and effective interaction with AI tools. Learn how to design clear, structured, and effective prompts for better AI-generated results.",
+    "Prompt & Pivot is a Prompt Engineering Workshop designed to help participants understand the fundamentals of prompt engineering and learn how to create effective prompts for AI tools.",
 
   teamComposition:
     "Individual participation.",
 
   rules: [
-    "Registration details will be announced by the organizers.",
-    "Participation details will be shared before the workshop.",
+    "The workshop will be conducted in 1 round.",
+    "Each participant must register individually.",
     "Participants are expected to follow the instructions provided by the organizers."
   ],
 
@@ -453,40 +460,11 @@ export const events: EventData[] = [
 
   coordinators: [
     {
-      name: "To be announced",
-      phone: "-"
+      name: "Anushka Dhawale (TY Comp A)",
+      phone: "9766013705"
     }
   ]
-},
-{
-  id: "personality-development",
-  name: "BECOMING YOU",
-  type: "workshop",
-  tagline: "Personality Development Workshop",
-  fee: "To be announced",
-  teamSize: "Individual",
-  date: "15th September 2026",
 
-  description:
-    "A practical workshop focused on developing communication, confidence, interpersonal skills, and overall personality. Participants will learn useful techniques to improve their personal and professional skills.",
-
-  teamComposition:
-    "Individual participation.",
-
-  rules: [
-    "Registration details will be announced by the organizers.",
-    "Participation details will be shared before the workshop.",
-    "Participants are expected to follow the instructions provided by the organizers."
-  ],
-
-  venue: "To be announced",
-
-  coordinators: [
-    {
-      name: "To be announced",
-      phone: "-"
-    }
-  ]
 },
 {
   id: "technical-paper-writing",
@@ -520,29 +498,39 @@ export const events: EventData[] = [
 },
 {
   id: "engineers-showdown",
+
   name: "THE ENGINEERS SHOWDOWN",
+
   type: "competition",
+
   tagline: "Engineering Challenge",
-  fee: "To be announced",
-  teamSize: "To be announced",
+
+  fee: "₹50 per person",
+
+  teamSize: "Team of 4",
+
   date: "15th September 2026",
 
   description:
-    "The Engineers Showdown is a technical competition designed to challenge participants' knowledge, problem-solving skills, and engineering abilities.",
+    "Each team randomly receives an engineering-related topic and a surprise Chaos Card with a fun challenge or restriction. Teams get 5 minutes to prepare and 3 minutes to perform using any creative format such as skit, comedy, rap, advertisement, stand-up, dance, drama, or news report. The performance must be connected to the given topic.",
 
   rules: [
-    "Competition details will be announced by the organizers.",
-    "Registration details will be shared soon.",
-    "Participants must follow the instructions provided by the organizers."
+    "Each team will randomly receive an engineering-related topic.",
+    "Each team will also receive a surprise Chaos Card with a fun challenge or restriction.",
+    "Teams will get 5 minutes to prepare.",
+    "Each team will get 3 minutes to perform.",
+    "Participants can use any creative format such as skit, comedy, rap, advertisement, stand-up, dance, drama, or news report.",
+    "The performance must be connected to the given engineering-related topic."
   ],
 
   venue: "To be announced",
 
   coordinators: [
     {
-      name: "To be announced",
-      phone: "-"
+      name: "Nandini Gattani (TY Com-A)",
+      phone: "9479539065"
     }
   ]
+
 },
 ];
