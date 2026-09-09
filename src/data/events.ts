@@ -400,7 +400,7 @@ export const events: EventData[] = [
   tagline: "Canva Design Workshop",
   fee: "₹50 per person",
   teamSize: "Individual",
-  date: "To be announced",
+  date: "15th September 2026",
 
   description:
     "A hands-on Canva workshop covering design basics, templates, typography, layouts, and practical techniques.",
